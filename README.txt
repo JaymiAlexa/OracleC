@@ -1,3 +1,6 @@
+Name: Jaymi Johnson
+CS username: jjohnson
+
 Welcome.
 
 You have sucessfully obtained a copy of the contents in the oracle repository.
