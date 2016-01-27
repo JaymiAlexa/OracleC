@@ -30,8 +30,33 @@ int main() {
 /*
  * Method to read the input file
  */
-void readInputFile(string inputFilePath) {
-	string* input = new string[]
+void readInputFile(string inputFilePath) 
+{
+	ifstream file;
+	
+	string name;
+	string address;
+	string date;
+	int i = 0;
+	
+	string* type = new string[6];
+	string* amount = new string[6];
+
+	
+	if(file.is_open())
+	{
+		getline(file, name, ';');
+		getline(file, address, ';');
+		getline(file, date, '\n')
+		
+		while (!EOF)
+		{
+			getline(file, type[i], ':');
+			getline(file, amount[i], ';');
+		}
+	}
+	else
+		cerr << "Error";
 }
 
 /*
