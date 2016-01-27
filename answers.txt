@@ -1,1 +1,8 @@
-
+a. 12
+b. August 24, 2015
+c. none
+d. once
+e. Git status displays paths that have differences between the index file and the current HEAD commit, paths that have differences     between the working tree and the index file, and paths in the working tree that are not tracked by Git (and are not ignored by gitignore[5]). The first are what you would commit by running git commit; the second and third are what you could commit by running git add before running git commit. Git log takes options applicable to the git rev-list command to control what is shown and how, and options applicable to the git diff-* commands to control how the changes each commit introduces are shown.
+f. git log main.java
+g. git log --grep="transactions" 
+h. git log --author="Lauren" --after="2016-01-05" --before="2016-02-17"
