@@ -58,12 +58,17 @@ void readInputFile(string inputFilePath)
 	else
 		cerr << "Error";
 	
+	int price = amount[i] * type[i].price;
+	int total += price;
+	
 	cout << "Customer: " << name << endl;
 	cout << "Address of delivery: " << address <<endl;
 	for (int i = 0; i < type.size; i++)
 	{
 		cout << "Ordered Wood: " << type[i] << amount [i] << endl;
 	}
+	cout << "Total: $" << setprecision(2) << fixed << total << endl;
+	cout << "Delivery time: " << deliveryTime();
 }
 
 /*
