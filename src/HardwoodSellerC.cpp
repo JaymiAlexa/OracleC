@@ -20,10 +20,10 @@ Sawdust = new WoodItem("Sawdust", 1, 1.5);
 
 
 
-int main() {
-	cout
-			<< "This is an empty main method"
-			<< endl;
+int main(int argc, char* argv[]) 
+{
+	WoodItem input;
+	readInputFile(argv[1]);
 	return 0;
 }
 
