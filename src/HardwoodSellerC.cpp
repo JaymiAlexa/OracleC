@@ -57,6 +57,13 @@ void readInputFile(string inputFilePath)
 	}
 	else
 		cerr << "Error";
+	
+	cout << "Customer: " << name << endl;
+	cout << "Address of delivery: " << address <<endl;
+	for (int i = 0; i < type.size; i++)
+	{
+		cout << "Ordered Wood: " << type[i] << amount [i] << endl;
+	}
 }
 
 /*
@@ -66,3 +73,4 @@ double deliveryTime() {
 	double deliveryETA = 0.0;
 	return deliveryETA;
 }
+
